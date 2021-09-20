@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic,cyrillic-ext');
+@font-face {
+    font-family: 'XXII_Arabian_OneNightStand_Cyr';
+    /*wizard font*/
+    src: url(../fonts/XXII_Arabian_OneNightStand_Cyr.ttf);
+}
+
+@font-face {
+    font-family: 'ArabiaCyrillic-Regular';
+    /*rogue font*/
+    src: url(../fonts/ArabiaCyrillic-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Kanonnik_UCS';
+    /*priest font*/
+    src: url(../fonts/Kanonnik_UCS.ttf);
+}
+
+@font-face {
+    font-family: 'ljk_Remains';
+    /*warrior font*/
+    src: url(../fonts/ljk_Remains.otf);
+}
+
+@font-face {
+    font-family: 'Mason Chronicles';
+    /*main font*/
+    src: url(../fonts/Mason_Chronicles.ttf);
+}
+
+@font-face {
+    font-family: 'Kurale';
+    /*main font*/
+    src: url(../fonts/Kurale.ttf);
+}

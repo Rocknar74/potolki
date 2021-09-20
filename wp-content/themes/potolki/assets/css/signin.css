@@ -1,0 +1,14 @@
+.signin__container_form {
+    margin: auto;
+    padding: 2rem;
+    box-sizing: content-box;
+    max-width: 600px;
+    min-height: max-content;
+    width: 100%;
+    background-color: #f3f2ec;
+    background-image: radial-gradient(#00000017 20%, transparent 0);
+    background-size: 10px 10px;
+    background-position: center;
+    height: max-content;
+    z-index: 999;
+}

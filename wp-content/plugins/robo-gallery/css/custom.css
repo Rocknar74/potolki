@@ -1,0 +1,44 @@
+.robogallery-gallery-216 .rbs_gallery_button {
+    display: flex !important;
+    justify-content: center !important;
+    position: relative !important;
+}
+.robogallery-gallery-216 .rbs_gallery_button .rbs-imges-load-more, .robogallery-gallery-216 .rbs_gallery_button .rbs-imges-loading  {
+    display: block !important;
+    position: absolute !important;
+
+    width: max-content !important;
+    height: unset !important;
+    bottom: -5rem !important;
+    padding: .8rem 1.6rem !important;
+    margin: 2rem 0 0 0 !important;
+
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    line-height: 1.15 !important;
+    letter-spacing: .03rem !important;
+    color: var(--box-shadow-black-color) !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    text-shadow: 0 0px 0px white !important;
+
+    background: var(--main-white-bg-color) !important;
+    box-shadow: var(--main-black-color) 0px 0px 5px 0px !important;
+    border-radius: 3px !important;
+    border: unset !important;
+    transition: .3s !important;
+}
+.rbs_gallery_button .rbs-imges-load-more:hover {
+    box-shadow: var(--main-black-color) 0px 0px 10px 0px !important;
+    font-size: 1.25rem !important;
+}
+.rbs-img-container {
+    transition: 1s !important;
+    clip-path: polygon(2% 0, 100% 0, 98% 100%, 0 100%);
+}
+.rbs-img-container:hover {
+    box-shadow: #2f323641 0px 8px 7px 0px !important;
+    transform: perspective(600px) scale3d(1.01, 1.01, 0.01) translateZ(200px) !important;
+    z-index: 2 !important;
+}

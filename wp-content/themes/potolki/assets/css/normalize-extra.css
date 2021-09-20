@@ -1,0 +1,42 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    vertical-align: baseline;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+a,
+button,
+label,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor !important;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%; 
+}
